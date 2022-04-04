@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500&display=swap');
+@font-face {
+  font-family: 'Sacramento';
+  src: local('Sacramento'), url(./Sacramento/Sacramento-Regular.ttf) format('truetype');
+}
+.App {
+height: 100vh;
+width: 100%;
+display: flex;
+align-items: center;
+flex-direction: column;
+padding-top: 120px;
+background-image: url("bgimg.jpg");
+}
+.heading{
+font-family: 'Sacramento', cursive;
+font-size: 60px;
+}
+.container{
+height: 300px;
+width: 800px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+input{
+padding-left: 5px;
+font-size: 20px;
+height: 36px;
+}
+.middle,.right{
+width: 120px;
+}
+.switch{
+padding: 5px;
+margin-top: 25px;
+/* background-color: rgb(252, 184, 229); */
+border-radius: 50%;
+cursor: pointer;
+}
+.result{
+box-sizing: border-box;
+width: 800px;
+padding-left: 30px;
+}
+button{
+width: 100px;
+height: 30px;
+font-weight: bold;
+font-size: 20px;
+border: 2px solid rgb(139, 34, 34);
+background-color: rgb(252, 228, 184);
+cursor: pointer;
+}
+p, switch{
+color: rgb(214, 110, 25);
+}
+p{
+font-size: 30px;
+}
+
+h3 {
+  color: rgb(0, 0, 0);
+  font-size: 45px;
+  font-weight: bolder;
+  background-color: rgb(252, 228, 184);
+}
+
+.Amount{
+  color:#ffffff;
+  font-size: 40px;
+  text-decoration: underline
+}
+
+.Amount1{
+  color:#000000;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(87 212 88);
+}
+
+button{
+  background-color: rgb(216, 125, 39);
+  color: #ffffff;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 5px;
+  height: fit-content;
+  width: fit-content;
+  margin: 10px auto;
+}
