@@ -1,7 +1,0 @@
-1. Unzip the currency-converter zip file to a directory of your choice.
-
-2. Open cmd in the the directory "currency-converter" and run the command "npm start".
-
-3. Follow the instructions given in "Readme.md" for additional details.
-
-4. A demo video is attached to demonstrate the working of the web app.
